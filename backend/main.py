@@ -9,6 +9,6 @@ models.Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 def read_root():
-    return {"Setup": 1}
+    return {"Setup": "Success"}
 
 
