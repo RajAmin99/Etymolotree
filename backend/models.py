@@ -9,3 +9,4 @@ class Word(Base):
     language = Column(String)
     origin = Column(String)
     history = Column(String)
+
