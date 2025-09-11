@@ -22,3 +22,4 @@ class Etymology(Base):
 
     word = relationship("Word", back_populates="etymologies")
 """
+
